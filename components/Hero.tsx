@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black leading-[0.95] mb-8 text-white">
-            A Fachada da Sua Loja <span className="text-orange-500">Atrai Clientes</span> ou Afasta Vendas?
+            Fachadas de impacto podem <span className="text-orange-500">aumentar suas vendas</span> em até 40%
           </h1>
 
           {/* Description */}

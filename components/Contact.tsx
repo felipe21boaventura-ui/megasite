@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
           <div className="relative">
             <div className="bg-[#111111] p-4 rounded-[2.5rem] border border-white/5 shadow-2xl overflow-hidden">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.8821950346383!2d-40.0716656247759!3d-19.41203498186125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb62908f9180735%3A0xb3638b70743b1748!2sAv.%20Claudio%20Emanoel%20da%20Costa%2C%20Linhares%20-%20ES!5e0!3m2!1spt-BR!2sbr!4v1714150000000!5m2!1spt-BR!2sbr" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.341416955353!2d-40.0514551247764!3d-19.38861658187515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb627b60bddd7db%3A0x3aa04fd39645a5c0!2sMega%20Print%20Comunica%C3%A7%C3%A3o%20Visual%20Linhares!5e0!3m2!1spt-BR!2sbr!4v1714150000000!5m2!1spt-BR!2sbr" 
                 width="100%" 
                 height="450" 
                 style={{ border: 0, borderRadius: '2rem' }} 

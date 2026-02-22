@@ -24,7 +24,7 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className={`fixed top-[33px] md:top-[37px] left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-black/90 backdrop-blur-md py-3' : 'bg-transparent py-6'}`}>
+    <header className={`fixed left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'top-0 bg-black/90 backdrop-blur-md py-3' : 'top-[33px] md:top-[37px] bg-transparent py-6'}`}>
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-end">
         <nav className="hidden lg:flex items-center space-x-8">
           {navLinks.map((link) => (

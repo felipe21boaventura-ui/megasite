@@ -11,6 +11,21 @@
 
       gtag('config', 'AW-16509162355');
     </script>
+    <!-- Event snippet for Contato whatsapp mp conversion page -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-16509162355/3Ay6CNuw1I0bEPOml8A9',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MegaPrint Comunicação Visual</title>

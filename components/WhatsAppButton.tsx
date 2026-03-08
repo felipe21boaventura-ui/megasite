@@ -7,6 +7,7 @@ const WhatsAppButton: React.FC = () => {
       href="https://wa.me/message/SSGUQTPF44IMG1" 
       target="_blank" 
       rel="noopener noreferrer"
+      onClick={() => (window as any).gtag_report_conversion?.('https://wa.me/message/SSGUQTPF44IMG1')}
       className="fixed bottom-6 right-6 z-[60] group flex items-center"
     >
       <div className="bg-white text-gray-900 px-6 py-3 rounded-full mr-3 font-bold text-sm shadow-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none transform translate-x-4 group-hover:translate-x-0">

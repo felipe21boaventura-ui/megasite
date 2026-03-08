@@ -43,6 +43,7 @@ const Hero: React.FC = () => {
               href="https://wa.me/message/SSGUQTPF44IMG1" 
               target="_blank" 
               rel="noopener noreferrer"
+              onClick={() => (window as any).gtag_report_conversion?.('https://wa.me/message/SSGUQTPF44IMG1')}
               className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#20ba5a] text-white font-black py-5 px-8 md:px-12 rounded-full transition-all transform hover:scale-105 shadow-[0_0_30px_rgba(37,211,102,0.3)] text-sm md:text-base uppercase tracking-wider"
             >
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

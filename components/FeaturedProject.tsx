@@ -106,6 +106,7 @@ const FeaturedProject: React.FC = () => {
             href="https://wa.me/message/SSGUQTPF44IMG1" 
             target="_blank" 
             rel="noopener noreferrer"
+            onClick={() => (window as any).gtag_report_conversion?.('https://wa.me/message/SSGUQTPF44IMG1')}
             className="inline-flex items-center gap-4 bg-orange-500 hover:bg-orange-600 text-white font-black py-6 px-12 rounded-full transition-all transform hover:scale-105 shadow-[0_0_40px_rgba(249,115,22,0.4)] text-sm md:text-base uppercase tracking-[0.2em] group"
           >
             Quero um projeto assim
